@@ -1,3 +1,27 @@
-.class {
-    color: red;
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    padding: 25px 0;
+    border-bottom: solid black 3px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-image: url(/images/hero-image.jpg);
 }
