@@ -2,12 +2,13 @@ body {
     margin: 0;
     font-family: Helvetica;
 }
+
+/* nav bar */
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: orange;
-    padding: 25px 0;
     border-bottom: solid black 3px;
 }
 nav ul {
@@ -21,7 +22,14 @@ a {
     text-decoration: none;
     color: black;
 }
+/* a:active {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+} */
 
+/* main content */
 main {
-    background-image: url(/images/hero-image.jpg);
+    background: url("../images/hero-image.jpg") fixed no-repeat;
+    height: 500px;
+    text-align: center;
 }
