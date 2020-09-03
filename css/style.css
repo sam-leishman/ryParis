@@ -73,3 +73,14 @@ main {
 .second-text {
     text-align: left;
 }
+.second-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-images img {
+    object-fit: cover;
+    margin: 2% 0;
+    height: 30vh;
+    width: 30%;
+}
