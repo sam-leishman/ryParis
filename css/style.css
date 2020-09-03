@@ -1,7 +1,27 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     font-family: Helvetica;
-    max-width: 1250px;
+}
+
+p {
+    font-size: 15pt;
+}
+
+/* flex stuff */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.fill-height {
+    height: 100%;
 }
 
 /* nav bar */
@@ -32,14 +52,24 @@ main {
     text-align: center;
 }
 
-.first-image {
-    background: url("../images/hero-image.jpg") no-repeat;
-    height: 500px;
+.section-1 {
+    background: url("../images/hero-image.jpg") no-repeat center;
+    background-size: cover;
+    height: 75vh;
 }
-h1 {
+.first-text {
+    background-color: white;
+    margin: 10px 20px;
+    padding: 5px;
+}
+.first-text h1 {
     margin: 0;
 }
-.first-message {
-    background-color: white;
-    padding: 5px;
+
+.section-2 {
+    height: 75vh;
+    padding: 3% 10%;
+}
+.second-text {
+    text-align: left;
 }
