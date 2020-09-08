@@ -5,6 +5,7 @@ body {
 
 p {
     font-size: 15pt;
+    line-height: 1.5;
 }
 
 /* flex stuff */
@@ -75,12 +76,77 @@ main {
 }
 .second-images {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 30vw;
 }
-.second-images img {
-    object-fit: cover;
-    margin: 2% 0;
-    height: 30vh;
-    width: 30%;
+.breakfast-image {
+    background-image: url("../images/breakfast-ideas.jpg");
+}
+.vegitarian-image {
+    background-image: url("../images/vegetarian-ideas.jpg");
+}
+.dinner-image {
+    background-image: url("../images/cold-weather-dinners.jpeg");
+}
+.captioned-image {
+    margin:  75px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.captioned-image .image {
+    flex: auto;
+    background-position: center;
+    background-size: cover;
+}
+.captioned-image .image-caption {
+    font-size: 12pt;
+    padding: 10px;
+    background-color: white;
+}
+
+.section-3 {
+    height: 60vh;
+    padding: 3% 10%;
+    background-color: lightgray;
+}
+.third-text {
+    text-align: left;
+}
+.third-images {
+    display: flex;
+    height: 25vw;
+}
+.peppers-image {
+    background-image: url("../images/fajita-peppers.jpeg");
+}
+.muffins-image {
+    background-image: url("../images/muffins.jpeg");
+}
+.parmesan-image {
+    background-image: url("../images/eggplant-parmesan.jpg");
+}
+.chicken-image {
+    background-image: url("../images/teriyaki-chicken.jpeg");
+}
+
+
+.section-4 {
+    height: 100vh;
+    padding: 3% 10%;
+}
+.fourth-text {
+    text-align: left;
+}
+.fourth-images {
+    display: flex;
+    height: 30vw;
+}
+.sandwiches-image {
+    background-image: url("../images/burger.jpg");
+}
+.pizza-image {
+    background-image: url("../images/pizza.jpeg");
+}
+.guides-image {
+    background-image: url("../images/download.jpeg");
 }
