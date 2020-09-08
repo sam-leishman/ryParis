@@ -150,3 +150,27 @@ main {
 .guides-image {
     background-image: url("../images/download.jpeg");
 }
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    height: 100px;
+}
+footer ul {
+    display: flex;
+}
+footer li {
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: 10pt;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color: white;
+}
