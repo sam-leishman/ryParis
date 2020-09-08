@@ -174,3 +174,52 @@ footer a {
 footer a:hover {
     color: white;
 }
+
+
+
+/* recipes page */
+.normal-weight {
+    font-weight: normal;
+}
+
+
+.section-1r {
+    background: url("../images/bengal-burger.jpg") no-repeat center;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+.section-2r {
+    height: 20vh;
+    padding: 3% 10%;
+    background-color: lightgray;
+}
+.second-text-r {
+    text-align: left;
+}
+.second-text-r h1 {
+    margin-top: 0;
+}
+.level-prep-yeild {
+    display: flex;
+}
+.level-prep-yeild h3 {
+    margin: 0 200px 20px 0;
+}
+.total-cook {
+    display: flex;
+}
+.total-cook h3{
+    margin: 0 200px 0 0;
+}
+
+
+.section-3r {
+    height: 75vh;
+    padding: 3% 10%;
+}
+.third-text-r {
+    text-align: center;
+    font-size: 17pt;
+}
