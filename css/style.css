@@ -211,15 +211,83 @@ footer a:hover {
     display: flex;
 }
 .total-cook h3{
-    margin: 0 200px 0 0;
+    margin: 0 190px 0 0;
 }
 
 
 .section-3r {
-    height: 75vh;
+    height: 60vh;
     padding: 3% 10%;
 }
-.third-text-r {
+.third-text-r h1 {
     text-align: center;
-    font-size: 17pt;
+    font-size: 30pt;
+}
+.third-text-r p {
+    font-weight: bold;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px 100px;
+    margin: 90px auto 0;
+    width: 700px;
+}
+.reviews {
+    margin-bottom: 40px;
+}
+.recipe-print {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.save-recipe {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(150, 0, 0);
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 19px;
+}
+.save-recipe a {
+    text-decoration: none;
+    color: inherit;
+}
+.print {
+    border: black solid 2px;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    margin-left: 15px;
+}
+.print img {
+    height: 38px;
+    width: 38px;
+}
+
+
+.section-4r {
+    height: 130vh;
+    padding: 3%10%;
+    margin-top: 0;
+}
+.fourth-text-r {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+.ingredients {
+    width: 450px;
+}
+.ingredients li {
+    padding: 2px;
+}
+.directions {
+    width: 550px;
+}
+.directions li {
+    padding: 2px;
+    padding-bottom: 30px;
+}
+lh {
+    font-weight: bold;
+    font-size: 17px;
 }
