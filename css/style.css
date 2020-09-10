@@ -152,6 +152,18 @@ main {
 }
 
 
+.section-5 {
+    height: 50vh;
+    padding: 3% 10%;
+    background-color: lightgray;
+}
+video {
+    margin: auto;
+    height: auto;
+}
+
+
+/* footer */
 footer {
     display: flex;
     justify-content: space-around;
@@ -266,7 +278,7 @@ footer a:hover {
 
 .section-4r {
     height: 130vh;
-    padding: 3%10%;
+    padding: 3% 10%;
     margin-top: 0;
 }
 .fourth-text-r {
@@ -290,4 +302,28 @@ footer a:hover {
 lh {
     font-weight: bold;
     font-size: 17px;
+}
+
+
+.section-5r {
+    height: 50vh;
+    padding: 3% 10%;
+    background-color: lightgray;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+input {
+    margin: 10px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    margin: 30px auto;
+    width: 100px;
+}
+label {
+    margin-top: 30px;
 }
